@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Merienda:wght@300..900&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@ 0,400;0,700;1,400;1,700&family=Varela+Round&display=swap');
+
+body {
+    background-color: #696969;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+    width: 90%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    
+}
+.Titulo {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    
+}
+form {
+    margin: 20px;
+    display: flex;
+
+}
+label{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+input {
+   margin-top: 2px;
+   margin-left: 5px;
+   height: 30px;
+   width: 160px;
+}
+button {
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: #778899;
+    border: 1px solid #778899;
+    color: black;
+    border-radius: 10px;
+    font-size: 10px;
+    height: 25px;
+    width: 60px;
+}
+.remover {
+    background-color: #778899;
+    border: 1px solid #778899;
+    margin-left: 90px;
+    
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+li {
+    background-color: #696969;
+    border-radius: 2px;
+    padding-left: 10px;
+    width: 90%;
+    margin-right: 80px;
+    margin-top: 20px;
+}
